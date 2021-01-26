@@ -1,0 +1,49 @@
+.hero {
+  position: relative;
+  height: 1000px;
+}
+
+.hero__slider {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+}
+
+
+.hero__slider .swiper-slide {
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.hero__container {
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.hero-info {
+  position: relative;
+  z-index: 5;
+  max-width: 624px;
+  padding: 70px;
+  background-color: var(--color-yellow);
+}
+
+.hero-info__title {
+  margin-bottom: 25px;
+}
+
+.hero-info__btn {
+  padding: 19px 50px;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 40px;
+  color: var(--color-yellow);
+  background-color: var(--color-black);
+}
