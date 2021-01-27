@@ -70,6 +70,18 @@ img {
   color: var(--color-black);
 }
 
+.site-descr {
+  margin: 0;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 34px;
+  color: var(--color-text);
+}
+
+.site-descr__highlighted {
+  color: var(--color-highlighted);
+}
+
 .corner-block {
   clip-path: polygon(10% 0, 100% 0, 100% 83%, 90% 100%, 0 100%, 0 17%);
   overflow: hidden;

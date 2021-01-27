@@ -1,6 +1,6 @@
 .game {
   position: relative;
-  padding-top: 50px;
+  padding-top: 91px;
   background-color: var(--color-black);
 }
 
@@ -17,4 +17,15 @@
 
 .game__title {
   color: var(--color-white);
+  background-image: url(../img/sale.svg);
+  background-repeat: no-repeat;
+  background-position: left center;
+  padding-top: 58px;
+  padding-bottom: 10px;
+  padding-left: 164px;
+}
+
+.game__descr {
+  color: var(--color-white);
+  max-width: 952px;
 }
